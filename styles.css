@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+}
+
+nav{
+  display: flex;
+  background-color: lightblue;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+nav a{
+  background-color: grey;
+  color: red;
+  padding: 0.25em 1em;
+  margin:1em;
+  width: 4em;
+  font-family: sans-serif;
+
+  transition: background-color 0.3s;
+
+}
+
+nav a:hover{
+  background-color: green;
+}
+header{
+  background-color: lightgreen;
+}
+
+header, section{
+  overflow: auto;
+}
+
+section{
+  padding: 1em;
+  flex-basis: 20;
+  background-color: lightgrey;
+}
+
+main{
+  display: flex;
+  width: auto;
+}
